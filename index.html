@@ -110,6 +110,14 @@
 
                 </p>
 
+                <!-- modificacion :D -->
+
+                <button onclick="mostrarAgua()">
+
+                    Calcular agua
+
+                </button>
+
             </div>
 
 
@@ -221,6 +229,70 @@
             <p>
 
                 Ingresa tu peso y estatura para comenzar.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- modificacion :D -->
+
+    <!-- Calculadora de agua -->
+
+    <section class="calculadoraAgua">
+
+        <h2>
+
+            💧 Calculadora de agua diaria
+
+        </h2>
+
+        <p>
+
+            Ingresa tu peso para conocer una recomendación diaria de agua.
+
+        </p>
+
+        <div class="formularioAgua">
+
+            <!-- Campo para ingresar el peso -->
+
+            <label for="pesoAgua">
+
+                Peso en kilogramos
+
+            </label>
+
+            <input
+                type="number"
+                id="pesoAgua"
+                placeholder="Ejemplo: 70"
+            >
+
+            <!-- Botón para calcular el agua -->
+
+            <button onclick="calcularAgua()">
+
+                Calcular agua
+
+            </button>
+
+        </div>
+
+        <!-- Espacio donde aparecerá el resultado -->
+
+        <div id="resultadoAgua" class="resultadoAgua">
+
+            <h3>
+
+                Tu resultado aparecerá aquí
+
+            </h3>
+
+            <p>
+
+                Ingresa tu peso para comenzar.
 
             </p>
 

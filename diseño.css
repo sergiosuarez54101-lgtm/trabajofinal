@@ -165,7 +165,6 @@ nav a:hover{
 
 
 
-
 .herramientas{
 
     width: 90%;
@@ -387,6 +386,149 @@ nav a:hover{
 
 
 
+/* modificacion :D */
+
+/* Calculadora de agua */
+.calculadoraAgua{
+
+    width: 90%;
+
+    max-width: 700px;
+
+    margin: 70px auto;
+
+    padding: 40px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+
+}
+
+/* Título de agua */
+.calculadoraAgua h2{
+
+    color: #2E7D32;
+
+    font-size: 32px;
+
+    margin-bottom: 15px;
+
+}
+
+/* Texto de agua */
+.calculadoraAgua > p{
+
+    margin-bottom: 30px;
+
+}
+
+/* Formulario de agua */
+.formularioAgua{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    text-align: left;
+
+}
+
+/* Etiqueta del peso */
+.formularioAgua label{
+
+    color: #2E7D32;
+
+    font-weight: bold;
+
+}
+
+/* Campo del peso */
+.formularioAgua input{
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+}
+
+/* Efecto al seleccionar el campo */
+.formularioAgua input:focus{
+
+    outline: none;
+
+    border-color: #4CAF50;
+
+}
+
+/* Botón de agua */
+.formularioAgua button{
+
+    background: #4CAF50;
+
+    color: white;
+
+    border: none;
+
+    padding: 13px;
+
+    margin-top: 15px;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+/* Animación del botón */
+.formularioAgua button:hover{
+
+    background: #388E3C;
+
+    transform: scale(1.03);
+
+}
+
+/* Resultado del agua */
+.resultadoAgua{
+
+    margin-top: 30px;
+
+    padding: 20px;
+
+    background: #F4FFF4;
+
+    border-radius: 15px;
+
+}
+
+/* Título del resultado */
+.resultadoAgua h3{
+
+    color: #2E7D32;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
 
 .beneficios{
 
@@ -437,7 +579,6 @@ nav a:hover{
     margin-bottom: 15px;
 
 }
-
 
 
 
@@ -499,6 +640,16 @@ footer{
 
     }
 
+    /* calculadora de agua :D */
+
+    .calculadoraAgua{
+
+        width: 85%;
+
+        padding: 30px;
+
+    }
+
 }
 
 /* Celulares */
@@ -528,7 +679,7 @@ footer{
 
     }
 
-    /* modificacion :D */
+    /* modificacion de peso */
 
     .calculadora{
 
@@ -539,6 +690,22 @@ footer{
     }
 
     .calculadora h2{
+
+        font-size: 26px;
+
+    }
+
+    /* calculadora de agua*/
+
+    .calculadoraAgua{
+
+        width: 90%;
+
+        padding: 25px;
+
+    }
+
+    .calculadoraAgua h2{
 
         font-size: 26px;
 
