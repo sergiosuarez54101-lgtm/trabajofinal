@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Estilos  del cuerpo de la página */
+/* Estilos del cuerpo de la página */
 body{
 
     font-family: Arial, Helvetica, sans-serif;
@@ -244,6 +244,149 @@ nav a:hover{
 
 
 
+/* modificacion :D */
+
+/* Calculadora */
+.calculadora{
+
+    width: 90%;
+
+    max-width: 700px;
+
+    margin: 70px auto;
+
+    padding: 40px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+
+}
+
+/* Título de la calculadora */
+.calculadora h2{
+
+    color: #2E7D32;
+
+    font-size: 32px;
+
+    margin-bottom: 15px;
+
+}
+
+/* Texto de la calculadora */
+.calculadora > p{
+
+    margin-bottom: 30px;
+
+}
+
+/* Formulario */
+.formularioIMC{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    text-align: left;
+
+}
+
+/* Etiquetas */
+.formularioIMC label{
+
+    color: #2E7D32;
+
+    font-weight: bold;
+
+}
+
+/* Campos */
+.formularioIMC input{
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+}
+
+/* Efecto al seleccionar un campo */
+.formularioIMC input:focus{
+
+    outline: none;
+
+    border-color: #4CAF50;
+
+}
+
+/* Botón de la calculadora */
+.formularioIMC button{
+
+    background: #4CAF50;
+
+    color: white;
+
+    border: none;
+
+    padding: 13px;
+
+    margin-top: 15px;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+/* Animación del botón */
+.formularioIMC button:hover{
+
+    background: #388E3C;
+
+    transform: scale(1.03);
+
+}
+
+/* Resultado */
+.resultadoIMC{
+
+    margin-top: 30px;
+
+    padding: 20px;
+
+    background: #F4FFF4;
+
+    border-radius: 15px;
+
+}
+
+/* Título del resultado */
+.resultadoIMC h3{
+
+    color: #2E7D32;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
 
 .beneficios{
 
@@ -312,7 +455,7 @@ footer{
 
 }
 
-              /* responsive*/
+/* responsive */
 
 
 /* Tablet */
@@ -346,6 +489,16 @@ footer{
 
     }
 
+    /* modificacion :D */
+
+    .calculadora{
+
+        width: 85%;
+
+        padding: 30px;
+
+    }
+
 }
 
 /* Celulares */
@@ -372,6 +525,22 @@ footer{
     .beneficios h2{
 
         font-size: 28px;
+
+    }
+
+    /* modificacion :D */
+
+    .calculadora{
+
+        width: 90%;
+
+        padding: 25px;
+
+    }
+
+    .calculadora h2{
+
+        font-size: 26px;
 
     }
 

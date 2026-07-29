@@ -85,6 +85,14 @@
 
                 </p>
 
+                <!-- modificacion :D -->
+
+                <button onclick="mostrarCalculadora()">
+
+                    Calcular IMC
+
+                </button>
+
             </div>
 
 
@@ -141,6 +149,85 @@
         </div>
 
     </section>
+
+    <!-- modificacion :D -->
+
+    <!-- Calculadora de IMC -->
+
+    <section class="calculadora">
+
+        <h2>
+
+            🧮 Calculadora de IMC
+
+        </h2>
+
+        <p>
+
+            Ingresa tus datos para conocer tu índice de masa corporal.
+
+        </p>
+
+        <div class="formularioIMC">
+
+            <!-- Campo para ingresar el peso -->
+
+            <label for="peso">
+
+                Peso en kilogramos
+
+            </label>
+
+            <input
+                type="number"
+                id="peso"
+                placeholder="Ejemplo: 70"
+            >
+
+            <!-- Campo para ingresar la estatura -->
+
+            <label for="estatura">
+
+                Estatura en centímetros
+
+            </label>
+
+            <input
+                type="number"
+                id="estatura"
+                placeholder="Ejemplo: 175"
+            >
+
+            <!-- Botón para calcular el IMC -->
+
+            <button onclick="calcularIMC()">
+
+                Calcular IMC
+
+            </button>
+
+        </div>
+
+        <!-- Espacio donde aparecerá el resultado -->
+
+        <div id="resultadoIMC" class="resultadoIMC">
+
+            <h3>
+
+                Tu resultado aparecerá aquí
+
+            </h3>
+
+            <p>
+
+                Ingresa tu peso y estatura para comenzar.
+
+            </p>
+
+        </div>
+
+    </section>
+
     <!-- Explica por qué usar la aplicación -->
 
     <section class="beneficios">
@@ -206,6 +293,7 @@
         </div>
 
     </section>
+
     <!-- Información final del sitio -->
 
     <footer>
@@ -217,6 +305,12 @@
         </p>
 
     </footer>
+
+    <!-- modificacion :D -->
+
+    <!-- Conecta el HTML con JavaScript -->
+
+    <script src="script.js"></script>
 
 </body>
 
