@@ -5,18 +5,14 @@
 
     <!-- Hace que la página sea adaptable a celulares y tablets -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>NutriControl</title>
-
     <link rel="stylesheet" href="diseño.css">
 
 </head>
 
 <body>
 
-    <!-- Encabezado de la página -->
     <header>
-
         <nav>
 
             <!-- Nombre de la página -->
@@ -25,21 +21,13 @@
             <!-- Lista del menú -->
             <ul>
 
-                <li>
-                    <a href="#inicio">Inicio</a>
-                </li>
+                <li><a href="#inicio">Inicio</a></li>
 
-                <li>
-                    <a href="#herramientas">Herramientas</a>
-                </li>
+                <li><a href="#herramientas">Herramientas</a></li>
 
-                <li>
-                    <a href="#beneficios">Beneficios</a>
-                </li>
+                <li><a href="#beneficios">Beneficios</a></li>
 
-                <li>
-                    <a href="#contacto">Contacto</a>
-                </li>
+                <li><a href="#contacto">Contacto</a></li>
 
             </ul>
 
@@ -49,7 +37,7 @@
 
 
     <!-- BANNER PRINCIPAL -->
-    <!-- Primera sección -->
+    <!-- primera sección -->
     <section class="banner" id="inicio">
 
         <div class="contenidoBanner">
@@ -59,13 +47,13 @@
                 Tu asistente para una vida saludable
             </h1>
 
-            <!-- Descripción -->
+            <!-- descripción -->
             <p>
                 Calcula tu IMC, conoce tus necesidades diarias y aprende más sobre tu alimentación.
             </p>
 
             <!-- Botón -->
-            <button onclick="mostrarHerramientas()">
+            <button onclick="irAHerramientas()">
 
                 Comenzar
 
@@ -76,7 +64,7 @@
     </section>
 
 
-    <!-- HERRAMIENTAS -->
+    <!-- herramientas -->
     <section class="herramientas" id="herramientas">
 
         <h2>
@@ -88,19 +76,15 @@
             <!-- Tarjeta 1 -->
             <div class="tarjeta">
 
-                <div class="icono">
-                    IMC
-                </div>
+                <div class="icono">🧮</div>
 
-                <h3>
-                    Calculadora IMC
-                </h3>
+                <h3>Calculadora IMC</h3>
 
                 <p>
                     Conoce tu índice de masa corporal.
                 </p>
 
-                <!-- Botón del IMC -->
+                <!-- modificacion :D -->
                 <button onclick="mostrarCalculadora()">
 
                     Calcular IMC
@@ -113,19 +97,15 @@
             <!-- Tarjeta 2 -->
             <div class="tarjeta">
 
-                <div class="icono">
-                    Agua
-                </div>
+                <div class="icono">💧</div>
 
-                <h3>
-                    Agua diaria
-                </h3>
+                <h3>Agua diaria</h3>
 
                 <p>
                     Calcula cuánta agua necesitas consumir.
                 </p>
 
-                <!-- Botón del agua -->
+                <!-- modificacion :D -->
                 <button onclick="mostrarAgua()">
 
                     Calcular agua
@@ -138,47 +118,17 @@
             <!-- Tarjeta 3 -->
             <div class="tarjeta">
 
-                <div class="icono">
-                    Calorías
-                </div>
+                <div class="icono">🍎</div>
 
-                <h3>
-                    Calorías
-                </h3>
-
-                <p>
-                    Descubre las calorías recomendadas para ti.
-                </p>
-
-                <!-- Botón de calorías -->
-                <button onclick="mostrarCalorias()">
-
-                    Calcular calorías
-
-                </button>
-
-            </div>
-
-
-            <!-- Tarjeta 4 -->
-            <div class="tarjeta">
-
-                <div class="icono">
-                    Alimentos
-                </div>
-
-                <h3>
-                    Alimentos
-                </h3>
+                <h3>Alimentos</h3>
 
                 <p>
                     Consulta información nutricional.
                 </p>
 
-                <!-- Botón de alimentos -->
                 <button onclick="mostrarAlimentos()">
 
-                    Ver alimentos
+                    Buscar alimento
 
                 </button>
 
@@ -189,12 +139,13 @@
     </section>
 
 
-    <!-- Calculadora de IMC -->
+    <!-- modificacion :D -->
 
+    <!-- Calculadora de IMC -->
     <section class="calculadora">
 
         <h2>
-            Calculadora de IMC
+            🧮 Calculadora de IMC
         </h2>
 
         <p>
@@ -204,39 +155,28 @@
         <div class="formularioIMC">
 
             <!-- Campo para ingresar el peso -->
-
             <label for="peso">
-
                 Peso en kilogramos
-
             </label>
 
             <input
                 type="number"
                 id="peso"
                 placeholder="Ejemplo: 70"
-                min="1"
             >
 
-
             <!-- Campo para ingresar la estatura -->
-
             <label for="estatura">
-
                 Estatura en centímetros
-
             </label>
 
             <input
                 type="number"
                 id="estatura"
                 placeholder="Ejemplo: 175"
-                min="1"
             >
 
-
             <!-- Botón para calcular el IMC -->
-
             <button onclick="calcularIMC()">
 
                 Calcular IMC
@@ -245,9 +185,7 @@
 
         </div>
 
-
         <!-- Espacio donde aparecerá el resultado -->
-
         <div id="resultadoIMC" class="resultadoIMC">
 
             <h3>
@@ -263,12 +201,13 @@
     </section>
 
 
-    <!-- Calculadora de agua -->
+    <!-- modificacion :D -->
 
+    <!-- Calculadora de agua -->
     <section class="calculadoraAgua">
 
         <h2>
-            Calculadora de agua diaria
+            💧 Calculadora de agua diaria
         </h2>
 
         <p>
@@ -278,23 +217,17 @@
         <div class="formularioAgua">
 
             <!-- Campo para ingresar el peso -->
-
             <label for="pesoAgua">
-
                 Peso en kilogramos
-
             </label>
 
             <input
                 type="number"
                 id="pesoAgua"
                 placeholder="Ejemplo: 70"
-                min="1"
             >
 
-
             <!-- Botón para calcular el agua -->
-
             <button onclick="calcularAgua()">
 
                 Calcular agua
@@ -303,9 +236,7 @@
 
         </div>
 
-
         <!-- Espacio donde aparecerá el resultado -->
-
         <div id="resultadoAgua" class="resultadoAgua">
 
             <h3>
@@ -321,163 +252,21 @@
     </section>
 
 
-    <!-- Calculadora de calorías -->
-
-    <section class="calculadoraCalorias">
-
-        <h2>
-            Calculadora de calorías
-        </h2>
-
-        <p>
-            Ingresa tus datos para conocer una estimación de tus calorías diarias.
-        </p>
-
-        <div class="formularioCalorias">
-
-            <!-- Campo para ingresar el peso -->
-
-            <label for="pesoCalorias">
-
-                Peso en kilogramos
-
-            </label>
-
-            <input
-                type="number"
-                id="pesoCalorias"
-                placeholder="Ejemplo: 70"
-                min="1"
-            >
-
-
-            <!-- Campo para ingresar la estatura -->
-
-            <label for="estaturaCalorias">
-
-                Estatura en centímetros
-
-            </label>
-
-            <input
-                type="number"
-                id="estaturaCalorias"
-                placeholder="Ejemplo: 175"
-                min="1"
-            >
-
-
-            <!-- Campo para ingresar la edad -->
-
-            <label for="edadCalorias">
-
-                Edad
-
-            </label>
-
-            <input
-                type="number"
-                id="edadCalorias"
-                placeholder="Ejemplo: 20"
-                min="1"
-            >
-
-
-            <!-- Selección del sexo -->
-
-            <label for="sexoCalorias">
-
-                Sexo
-
-            </label>
-
-            <select id="sexoCalorias">
-
-                <option value="hombre">
-                    Hombre
-                </option>
-
-                <option value="mujer">
-                    Mujer
-                </option>
-
-            </select>
-
-
-            <!-- Selección de actividad -->
-
-            <label for="actividadCalorias">
-
-                Nivel de actividad
-
-            </label>
-
-            <select id="actividadCalorias">
-
-                <option value="1.2">
-                    Poco activo
-                </option>
-
-                <option value="1.375">
-                    Actividad ligera
-                </option>
-
-                <option value="1.55">
-                    Actividad moderada
-                </option>
-
-                <option value="1.725">
-                    Actividad alta
-                </option>
-
-            </select>
-
-
-            <!-- Botón para calcular las calorías -->
-
-            <button onclick="calcularCalorias()">
-
-                Calcular calorías
-
-            </button>
-
-        </div>
-
-
-        <!-- Espacio donde aparecerá el resultado -->
-
-        <div id="resultadoCalorias" class="resultadoCalorias">
-
-            <h3>
-                Tu resultado aparecerá aquí
-            </h3>
-
-            <p>
-                Ingresa tus datos para comenzar.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- Información de alimentos -->
-
-    <section class="alimentos">
+    <!-- Información nutricional -->
+    <section class="informacionNutricional" id="alimentos">
 
         <h2>
-            Información nutricional
+            🍎 Información nutricional
         </h2>
 
         <p>
             Busca un alimento para conocer su información nutricional.
         </p>
 
-        <div class="formularioAlimentos">
+        <div class="formularioNutricional">
 
             <!-- Campo para buscar el alimento -->
-
-            <label for="busquedaAlimento">
+            <label for="alimento">
 
                 Nombre del alimento
 
@@ -485,13 +274,11 @@
 
             <input
                 type="text"
-                id="busquedaAlimento"
+                id="alimento"
                 placeholder="Ejemplo: manzana"
             >
 
-
-            <!-- Botón para buscar el alimento -->
-
+            <!-- Botón para buscar -->
             <button onclick="buscarAlimento()">
 
                 Buscar alimento
@@ -500,17 +287,15 @@
 
         </div>
 
-
-        <!-- Espacio donde aparecerán los resultados -->
-
-        <div id="resultadoAlimento" class="resultadoAlimento">
+        <!-- Espacio para mostrar la información -->
+        <div id="resultadoNutricional" class="resultadoNutricional">
 
             <h3>
-                Información nutricional
+                Tu resultado aparecerá aquí
             </h3>
 
             <p>
-                Escribe un alimento para comenzar la búsqueda.
+                Escribe un alimento para comenzar.
             </p>
 
         </div>
@@ -519,7 +304,6 @@
 
 
     <!-- Explica por qué usar la aplicación -->
-
     <section class="beneficios" id="beneficios">
 
         <h2>
@@ -531,7 +315,7 @@
             <div class="beneficio">
 
                 <h3>
-                    Fácil de usar
+                    ✔ Fácil de usar
                 </h3>
 
                 <p>
@@ -544,7 +328,7 @@
             <div class="beneficio">
 
                 <h3>
-                    Información confiable
+                    ✔ Información confiable
                 </h3>
 
                 <p>
@@ -557,7 +341,7 @@
             <div class="beneficio">
 
                 <h3>
-                    Acceso gratuito
+                    ✔ Acceso gratuito
                 </h3>
 
                 <p>
@@ -572,7 +356,6 @@
 
 
     <!-- Información final del sitio -->
-
     <footer id="contacto">
 
         <p>
@@ -582,8 +365,9 @@
     </footer>
 
 
-    <!-- Conecta el HTML con JavaScript -->
+    <!-- modificacion :D -->
 
+    <!-- Conecta el HTML con JavaScript -->
     <script src="script.js"></script>
 
 </body>
